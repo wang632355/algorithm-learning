@@ -1,3 +1,4 @@
+//比较母字符串中是否包含子字符串
 char *StrStr(const char *str, const char *target) {
   if (!*target) {
     return const_cast<char *>(str);
